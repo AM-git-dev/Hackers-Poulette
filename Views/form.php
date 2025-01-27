@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,7 +15,7 @@
 <h1>Hackers Poulette SARL</h1>
 
     <p class="subtitle">Si vous souhaitez vous inscrire remplissez le formulaire suivant : </p>
-
+<section class="main-container">
 <form action method="post"  style="display: flex; flex-direction: column;" novalidate >
     <label for="name"> Nom :
         <input type="text" minlength="2" maxlength="255" name="name" id="name" required>
@@ -41,12 +42,12 @@
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="submit">
-        <input type="submit" value="Envoyer" name="submit" id="submit">
-
-    </label>
+        <label for="submit">
+            <input type="submit" value="Envoyer" name="submit" id="submit">
+        </label>
 
 </form>
+</section>
 </body>
 </html>
 
