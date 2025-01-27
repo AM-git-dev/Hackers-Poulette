@@ -11,6 +11,9 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+    <img id="logo" src="<?= BASE_URL ?>Views/include/img/OIG1.M5.2SkJJ9MRHJ.jpg" alt="logo de l'entreprise">
+</header>
 <h1>Hackers Poulette SARL</h1>
 
     <p class="subtitle">Si vous souhaitez nous contacter remplissez le formulaire suivant : </p>
@@ -31,13 +34,13 @@
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="file">
-        <input type="file" name="file" id="file"> <br>
+    <label for="description">
+        <input placeholder="Décris ton problème" type="text" minlength="2" maxlength="1000" name="description" id="description" required ><br>
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="description">
-        <input placeholder="Décrit ton problème" type="text" minlength="2" maxlength="1000" name="description" id="description" required ><br>
+    <label for="file">
+        <input type="file"  value='Upload ton fichier'name="file" id="file"> <br>
         <span class="error" aria-live="polite"></span>
     </label>
 
