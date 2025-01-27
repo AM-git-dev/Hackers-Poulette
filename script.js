@@ -1,12 +1,12 @@
 let form = document.querySelector('form');
 let name = document.getElementById("name");
 let email = document.getElementById("email");
-let firstName = document.getElementById("firstName");
+let firstName = document.getElementById("firstname");
 let description = document.getElementById("description");
 let errorMessages = document.querySelectorAll('.error');
 
 function validateField(input, message) {
-    let errorElement = input.nextElementSibling;
+    let errorElement = input.parentElement.querySelector('.error');
     if (!input.value.trim()) {
         errorElement.textContent = message;
         errorElement.classList.add('active');
