@@ -4,18 +4,21 @@
 }
 
 body {
-    background: whitesmoke;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     width: 100%;
     text-align: center;
     margin-top: 2.5rem;
-
+    margin-bottom: 2.5rem;
 }
 
 .subtitle {
-    margin-left: 45rem;
+    margin-bottom: 2.5rem;
 }
 
 .main-container {
@@ -26,11 +29,10 @@ h1 {
     border: solid black 1px;
     width: 25rem;
     height: 25rem;
-    margin-left: 45rem;
+    border-radius: 15px;
 }
 
 .form-container {
-
 }
 
 label {
@@ -38,10 +40,32 @@ label {
 }
 
 input {
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
     width: 15rem;
+    height: 2rem;
 }
 
 #submit {
-    width: 5rem;
+    width: 10rem;
+    margin: auto;
+    background: #3dddf6;
+    color: white;
+    border: white;
+    border-radius: 25px;
+}
+
+#submitLabel {
+    display: flex;
+    justify-content: center;
+}
+
+input::placeholder {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+input:hover::placeholder {
+    font-size: 10px;
+    transition: font-size 0.3s;
+    transform: translateY(-12px);
 }
