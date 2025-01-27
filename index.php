@@ -5,3 +5,6 @@ require "controllers/FormController.php";
 
 $controller = new FormController();
 $controller->handleRequest();
+?>
+
+

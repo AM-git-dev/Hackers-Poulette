@@ -1,0 +1,17 @@
+{
+    "name": "hugo-g/hackers_poulette",
+    "autoload": {
+        "psr-4": {
+            "HugoG\\HackersPoulette\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GabrielHugo",
+            "email": "hugogabriel141201@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

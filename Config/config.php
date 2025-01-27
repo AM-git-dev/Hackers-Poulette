@@ -29,4 +29,7 @@ class dbConnection {
     }
 
 }
+
+define('BASE_URL', '/hackers_poulette/');
+
 ?>
