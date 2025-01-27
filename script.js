@@ -10,6 +10,7 @@ function validateField(input, message) {
     if (!input.value.trim()) {
         errorElement.textContent = message;
         errorElement.classList.add('active');
+        errorElement.style.color = "red";
         return false;
     } else {
         errorElement.textContent = "";
@@ -36,3 +37,5 @@ form.addEventListener('submit', function (event) {
         event.preventDefault();
     }
 }, false);
+
+
