@@ -13,35 +13,35 @@
 <body>
 <h1>Hackers Poulette SARL</h1>
 
-    <p class="subtitle">Si vous souhaitez vous inscrire remplissez le formulaire suivant : </p>
+    <p class="subtitle">Si vous souhaitez nous contacter remplissez le formulaire suivant : </p>
     <section class="main-container">
 <form action ="" method="post"  style="display: flex; flex-direction: column;" novalidate >
-    <label for="name"> Nom :
-        <input type="text" minlength="2" maxlength="255" name="name" id="name" required><br>
+    <label for="name">
+        <input placeholder="Nom de famille" type="text" minlength="2" maxlength="255" name="name" id="name" required><br>
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="firstname"> Prénom :
-        <input type="text" minlength="2" maxlength="255" name="firstname" id="firstname" required><br>
+    <label for="firstname">
+        <input placeholder="Prénom" type="text" minlength="2" maxlength="255" name="firstname" id="firstname" required><br>
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="email"> E-mail :
-        <input type="email" minlength="2" maxlength="255" name="email" id="email" required><br>
+    <label for="email">
+        <input placeholder="Email" type="email" minlength="2" maxlength="255" name="email" id="email" required><br>
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="file"> A link to your file :
+    <label for="file">
         <input type="file" name="file" id="file"> <br>
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="description"> Description :
-        <input type="text" minlength="2" maxlength="1000" name="description" id="description" required ><br>
+    <label for="description">
+        <input placeholder="Décrit ton problème" type="text" minlength="2" maxlength="1000" name="description" id="description" required ><br>
         <span class="error" aria-live="polite"></span>
     </label>
 
-    <label for="submit">
+    <label for="submit" id="submitLabel">
         <input type="submit" value="Envoyer" name="submit" id="submit">
 
     </label>
