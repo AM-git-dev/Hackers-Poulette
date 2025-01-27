@@ -19,7 +19,6 @@ class dbConnection {
         if(self::$bdd == NULL) {
             try {
                 self::$bdd = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASSWORD, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-                echo "ok";
             }
             catch (PDOException $e) {
                 echo $e->getMessage();
@@ -30,6 +29,6 @@ class dbConnection {
 
 }
 
-define('BASE_URL', '/hackers_poulette/');
+define('BASE_URL', '/Hackers-Poulette/');
 
 ?>
