@@ -23,7 +23,6 @@ h1 {
 
 .subtitle {
     color: white;
-    margin-bottom: 2.5rem;
 }
 
 .main-container {
@@ -54,6 +53,7 @@ label {
 
 #submit {
     width: 10rem;
+    height: 2rem;
     margin: auto;
     background: #3dddf6;
     color: white;
@@ -82,12 +82,12 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 20rem;
+    height: 15rem;
     background: linear-gradient(to bottom, #08294a, #1b4d80)
 }
 #logo {
-    width: 19rem;
-    height: 19rem;
+    width: 15rem;
+    height: 15rem;
     margin: auto;
     border-radius: 50%;
     border: solid white 2px;
